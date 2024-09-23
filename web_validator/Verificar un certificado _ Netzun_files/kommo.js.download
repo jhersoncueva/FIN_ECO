@@ -1,0 +1,21 @@
+(function (a, m, o, c, r, m) {
+  a[m] = {
+    id: '1016951',
+    hash: 'a2818866530d807f7cd1fa4242edfbde9af2cbea41db2b9c64896751eebaa619',
+    locale: 'es',
+    setMeta: function (p) {
+      this.params = (this.params || []).concat([p])
+    },
+  }
+  a[o] =
+    a[o] ||
+    function () {
+      ;(a[o].q = a[o].q || []).push(arguments)
+    }
+  var d = a.document,
+    s = d.createElement('script')
+  s.async = true
+  s.id = m + '_script'
+  s.src = 'https://gso.kommo.com/js/button.js'
+  d.head && d.head.appendChild(s)
+})(window, 0, 'crmPlugin', 0, 0, 'crm_plugin')
