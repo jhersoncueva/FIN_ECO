@@ -1,4 +1,4 @@
-# FINANCE_ECONOMICA
+# FIN_ECO
 This repository is utilized for compiling projects that involve both code and data.
 
 
