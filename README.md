@@ -7,11 +7,11 @@ This repository is utilized for compiling projects that involve both code and da
 
 
 
-![](scrapping/Stock%20Data%20Yahoo/graph_index.png)
+![](scrapping/Stock%20Data%20Yahoo/graph_1.png)
 
-![](scrapping/Stock%20Data%20Yahoo/graph_ipc.png)
+![](scrapping/Stock%20Data%20Yahoo/graph_2.png)
 
-![](scrapping/Stock%20Data%20Yahoo/graph_unem.png)
+![](scrapping/Stock%20Data%20Yahoo/graph_3.png)
 
 
 
