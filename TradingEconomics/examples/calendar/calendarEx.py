@@ -22,9 +22,9 @@ mydata = te.getCalendarData(importance='1', output_type='df')
 #print("===============================================================================================================")
 
 # To get calendar events by date or by date and importance
-mydata = te.getCalendarData(initDate='2016-02-01', endDate='2016-02-02', output_type='df')
+mydata = te.getCalendarData(initDate='2025-02-01', endDate='2025-02-02', output_type='df')
 
-mydata = te.getCalendarData(initDate='2016-02-01', endDate='2016-02-02', importance='3', output_type='df')
+mydata = te.getCalendarData(initDate='2025-02-01', endDate='2025-02-02', importance='3', output_type='df')
 #print(mydata)
 #print("===============================================================================================================")
 
@@ -40,7 +40,7 @@ mydata = te.getCalendarData(category='inflation rate', output_type='df')
 
 mydata = te.getCalendarData(category='inflation rate', importance='2',  output_type='df')
 
-mydata = te.getCalendarData(category='inflation rate', initDate='2018-02-01', endDate='2018-02-02', output_type='df')
+mydata = te.getCalendarData(category='inflation rate', initDate='2025-02-01', endDate='2025-02-02', output_type='df')
 #print(mydata)
 #print("===============================================================================================================")
 
@@ -62,7 +62,7 @@ mydata = te.getCalendarId(id='174108')
 #print("===============================================================================================================")
 
 # To filter calendar events by ticker and date
-mydata = te.getCalendarData(ticker=['IJCUSA',  'SPAINFACORD',  'BAHRAININFNRATE'], initDate='2017-06-07', endDate='2017-12-31', output_type='df')
+mydata = te.getCalendarData(ticker=['IJCUSA',  'SPAINFACORD',  'BAHRAININFNRATE'], initDate='2025-06-07', endDate='2025-12-31', output_type='df')
 #print(mydata)
 #print("===============================================================================================================")
 
@@ -73,7 +73,7 @@ print(mydata)
 
 # To get your data into a csv file
 df = pd.DataFrame(mydata)
-path = r'python\EXAMPLES\calendar\calendar.csv'
+path = r'..\calendar\calendar.csv'
 df.to_csv(path, index=False, header=True, sep='|')
 
 # If you want the code into an html table format, you can use the example below in your html projects
